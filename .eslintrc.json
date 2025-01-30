@@ -3,7 +3,15 @@
     "es2021": true,
     "node": true
   },
-  "extends": ["plugin:react/recommended", "airbnb"],
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "standard",
+    "prettier",
+    "prettier/flowtype",
+    "prettier/react",
+    "prettier/standard"
+  ],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -11,6 +19,6 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["react"],
+  "plugins": ["react", "react-native", "flowtype", "prettier", "standard"],
   "rules": {}
 }

@@ -1,6 +1,7 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
 import { Platform } from 'react-native';
+import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 
 
 import { useTheme } from 'react-native-paper';
@@ -25,6 +26,13 @@ export default function TabLayout() {
         name="index"
         options={{
           title: 'Home',
+          tabBarIcon: () => <MaterialCommunityIcons name="bank" size={24} color="black" />
+        }}
+      />
+      <Tabs.Screen
+        name="credit"
+        options={{
+          title: 'Credit',
         }}
       />
       <Tabs.Screen
