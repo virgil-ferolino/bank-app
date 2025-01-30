@@ -33,4 +33,4 @@
 - Readability: Write code as if the next person to maintain it is a violent psychopath who knows where you live. It should be easily understandable.
 - Comments: Comment your code where necessary but avoid obvious comments.
 - Variable Naming: Use camel case for variable naming while upper case for constants
-- Responsibility: All who break the repository will spend the night fixing it alone.
+- Responsibility: All who break the repository will spend the night fixing it "ALONE".
